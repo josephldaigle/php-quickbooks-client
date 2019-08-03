@@ -1,0 +1,27 @@
+{
+    "name": "joedaco/php-quickbooks-client",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Joe Daigle",
+            "email": "josephldaigle@yahoo.com"
+        }
+    ],
+    "require": {
+        "quickbooks/v3-php-sdk": "^5.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoeDaCo\\QuickBooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JoeDaCo\\QuickBooks\\Test\\": "Tests/"
+        }
+    }
+}
